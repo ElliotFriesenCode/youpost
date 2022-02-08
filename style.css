@@ -1,0 +1,246 @@
+body{
+    background-color: 	#f8e7e9;
+    margin: 0;
+
+}
+body, input{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(95, 96, 97);
+}
+a{
+    text-decoration: none; /* Makes links not have underline */
+    color: black;
+}
+a:hover{
+    background-color: #dbd3dba9; 
+}
+.main_page_header{
+    text-align: center;
+    
+}
+.links{
+    display: flex;
+    justify-content: left;
+    background-color: #ece3ec73;
+}
+.sign{
+    text-align: center;
+}
+.i{
+    height: 40px;
+    width: 600px;
+    font-size: 20px;
+    opacity: .75;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 0 rgba(65, 60, 60, 0.1);
+}
+.links > a{
+   
+   
+    height: 50px;
+    line-height: 50px;
+    font-size: 1vw;
+    width: 10%;
+    
+    
+    color:rgb(43, 47, 51);
+    
+    text-align: center;
+    
+    
+}
+
+.s{
+    height: 40px;
+    width: 600px;
+    font-size: 20px;
+    opacity: .75;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+}
+.h{
+    font-size: 30px;
+}
+
+.log_out_link{
+    font-size: 20px;
+    position:absolute;
+     bottom: 15px;
+   right: 15px;
+    margin: 10px;
+  
+    padding: 5px;
+background-color: 	#f1e5ee;
+}
+/* List */
+.list{
+    background-color: rgb(245, 243, 245);
+    margin: 20px auto; /*20px top and bottom, and auto margin left and right */
+    width: 100%;
+    max-width: 500px; /*Sets max width of box */
+    padding: 20px; /* pushes elements away from edges */
+    box-sizing: border-box; /* makes padding not effect size of element */
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgba(0,0,0, .1); /*This makes the shadow have x and y value and a spread, then the color black with a transparency setting basically */
+}
+.list .header{ /*header class within list class*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0 10px 0; /*Makes it sit 10 px away from top of the padding */
+}
+.list .header_not_logged_in{ /*header class within list class*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; /*Makes it sit 10 px away from top of the padding */
+}
+.list{ /*header class within list class*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*Makes it sit 10 px away from top of the padding */
+}
+
+
+/* Items */
+
+.items{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* all of this above resets position and it removes the bullet points on the list */
+
+}
+.items .item.done {
+    text-decoration: line-through;
+}
+.items li:hover .done-button{
+    opacity: 1;
+}
+.items li,
+.item-add .input{
+    font-size: 20px;
+border:0;
+border-bottom: 1px dashed #ccc;  
+padding: 15px 0px;
+}
+
+/* Done button */
+.items .done-button{
+display: inline-block;
+font-size: 15px;
+background-color: rgb(170, 169, 169);
+color: 	rgb(52, 56, 59);
+padding: 3px 6px; /* 3 top and bottom 6px right and left */
+border: 0;
+opacity: 0.4;
+}
+.input, .submit{
+    background-color: rgb(245, 243, 245);
+    width: 100%;
+    outline: none;
+}
+.input{
+    width: 100%; /* Makes it so that you can type as much stuff as you want inisde of textbox in one single row so that it doesnt indent */
+}
+.submit{
+    margin: 15px 0px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(119, 119, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: 2px 2px 0 rgba(0,0,0, .1);
+    
+}
+
+.rh{
+   position: absolute;
+    bottom: 15px;
+   right: 15px;
+    font-size: 25px;
+}
+.rhv{
+   
+    
+    font-size: 25px;
+    
+}
+.margin{
+
+   position: absolute;
+   bottom: 15px;
+   right: 15px;
+}
+.at{
+ 
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+   
+    outline: none;
+    white-space:pre-wrap;
+}
+.tt{
+    padding-bottom: 500px;
+    background-color: 	#f1e5ee;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 15px;
+   margin-top: 3%;
+    outline: none;
+    white-space:pre-wrap;
+}
+.sb{
+    width: 80.5%;
+    margin-left: 10%;
+    height: 50px;
+    background-color: 	#f1e5ee;
+    font-size: 20px;
+    outline: none;
+    border-top: none;
+    
+}
+.at{
+    font-size: 20px;
+}
+.ht{
+    text-align: center;
+    font-size: 30px;
+}
+.db{
+    color:rgb(52, 56, 59);
+    opacity: .5;
+    margin-left: 30px;
+}
+.eb{
+    color:rgb(52, 56, 59);
+    opacity: .5;
+    
+    font-size: 15px;
+    background-color: transparent;
+    
+   cursor: default;
+   margin-left: 100px;
+   justify-self: bottom;
+}
+.eb:hover{
+     background-color: transparent;
+    
+}
+.header{
+    text-align: center;
+}
+.c{
+    background-color: #ece3ec73;
+    padding: 5px;
+}
+.g:hover{
+    background-color: transparent;
+}
+
+.username{
+    opacity: .3;
+    margin-left: 5px;
+    pointer-events: none;
+}
