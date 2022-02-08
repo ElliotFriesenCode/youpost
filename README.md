@@ -1,3 +1,3 @@
 # youpost
-blogging website
+article sharing website ||
 php based website that lets you create and view articles 
